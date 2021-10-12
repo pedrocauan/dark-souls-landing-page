@@ -1,0 +1,168 @@
+:root {
+  --black-bg-color: rgba(0, 0, 0, 0.8);
+  --black-title-color: rgba(0, 0, 0, 0.58);
+  --gap: 3rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'OptimusPrinceps', 'sans-serif';
+  color: white;
+}
+
+/* =========== Importing fonts from figma =============== */
+
+@font-face {
+  font-family: 'OptimusPrinceps'; /*menu font*/
+  src: url('../_fonts/OptimusPrinceps.ttf') format('truetype'),
+    url('../_fonts/OptimusPrincepsSemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'seagram'; /*story font*/
+  src: url('../_fonts/seagram.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-size: 1.6rem;
+}
+
+/*default titles size*/
+
+h2,
+h3 {
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 8rem;
+}
+
+h3 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+/*Default bg*/
+
+.img-bg-size {
+  min-height: 100vh;
+}
+.img-bg {
+  background: url('Group_1.svg') no-repeat;
+}
+.img-bg-content {
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+.home-bg {
+  background: url('../_img/home-bg.svg') no-repeat;
+}
+
+.explore-bg {
+  background: url('../_img/explore-bg.svg') no-repeat;
+}
+
+.story-bg {
+  background: url('../_img/story-bg.svg') no-repeat;
+}
+
+.shadow-bg {
+  background-color: var(--black-bg-color);
+  min-height: 100vh;
+}
+
+/* default classes*/
+.align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-content {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: var(--gap);
+}
+
+.align-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-items: center;
+}
+
+/*Iframe settings*/
+.video {
+  width: 90%;
+  max-width: 50rem;
+  border-radius: 2rem;
+  box-shadow: rgb(5, 5, 5) 0.1rem 0 1rem;
+}
+
+/*====================================* 
+ *            MENU                    *
+ *====================================*/
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1;
+}
+.menu-content {
+  padding-top: 0;
+}
+.menu-content ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: 5%;
+}
+
+.menu-content ul li a {
+  display: block;
+  text-transform: uppercase;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  font-size: 2rem;
+  text-shadow: rgb(5, 5, 5) 0.1rem 0 1rem;
+}
+
+/*====================================* 
+ *            HOME                    *
+ *====================================*/
+
+/* Creating an empty div for grid application*/
+.empty {
+  width: auto;
+  height: auto;
+}
+
+.home-content img {
+  max-width: 80rem;
+  width: 100%;
+}

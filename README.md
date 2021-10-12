@@ -10,5 +10,7 @@ https://www.linkedin.com/in/gustavo-kael-1523841a3/
 
 _Project steps_
 
-[ ] setting images and fonts utilized in figma project
-[ ] setting default classes.
+[x] setting images and fonts utilized in figma project
+[x] setting default classes.
+[x] Creating fixed menu
+[x] creating home page
