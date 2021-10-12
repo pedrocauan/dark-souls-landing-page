@@ -8,7 +8,7 @@ the project designer's created by guto kael. social midias below:
 https://dribbble.com/Gustavo_Kael
 https://www.linkedin.com/in/gustavo-kael-1523841a3/
 
-_Project steps_
+======== PROJECT STEPS ==========
 
 [ x ] setting images and fonts utilized in figma project.
 [ x ] setting default classes.
