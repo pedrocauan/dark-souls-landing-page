@@ -14,4 +14,4 @@ https://www.linkedin.com/in/gustavo-kael-1523841a3/
 2. [x] setting default classes.
 3. [x] Creating fixed menu.
 4. [x] creating home page.
-5. [] creating explore page.
+5. [ ] creating explore page.
