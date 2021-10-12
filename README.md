@@ -8,10 +8,10 @@ the project designer's created by guto kael. social midias below:
 https://dribbble.com/Gustavo_Kael
 https://www.linkedin.com/in/gustavo-kael-1523841a3/
 
-======== PROJECT STEPS ==========
+======== _PROJECT STEPS_ ==========
 
-[ x ] setting images and fonts utilized in figma project.
-[ x ] setting default classes.
-[ x ] Creating fixed menu.
-[ x ] creating home page.
-[ ] creating explore page.
+1. [ x ] setting images and fonts utilized in figma project.
+2. [ x ] setting default classes.
+3. [ x ] Creating fixed menu.
+4. [ x ] creating home page.
+5. [ ] creating explore page.
