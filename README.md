@@ -14,3 +14,4 @@ _Project steps_
 [x] setting default classes.
 [x] Creating fixed menu
 [x] creating home page
+[ ] creating explore page
